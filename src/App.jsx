@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cloud, Sun, Wind, Droplets, CloudRain } from 'lucide-react'
+import { Cloud, Sun, Wind, Droplets, CloudRain, Fan } from 'lucide-react'
 import './WeatherApp.css'
 
 const WeatherApp = () => {
@@ -46,10 +46,10 @@ const WeatherApp = () => {
         <div className="additional-info">
           <div className="uv-air-quality">
             <div className="uv-info">
-              <Sun size={18} /> UV 0
+              <Sun size={18} /> UV Index - 0
             </div>
             <div className="air-quality">
-              Air Quality: Good
+              <Fan size={18} /> Air Quality: Good
             </div>
           </div>
           
